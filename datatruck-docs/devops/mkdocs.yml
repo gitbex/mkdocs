@@ -1,0 +1,40 @@
+site_name: DevOps Documentation
+site_url: https://docs.datatruck.internal/devops/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Runbooks:
+      - Overview: runbooks/index.md
+      - Incident Response: runbooks/incident-response.md
+      - Deployments: runbooks/deployments.md
+      - Troubleshooting: runbooks/troubleshooting.md
+  - Infrastructure:
+      - Overview: infrastructure/index.md
+      - AWS: infrastructure/aws.md
+      - Kubernetes: infrastructure/kubernetes.md
+  - CI/CD:
+      - Overview: ci-cd/index.md
+      - GitHub Actions: ci-cd/github-actions.md
+      - Jenkins: ci-cd/jenkins.md
+  - Monitoring:
+      - Overview: monitoring/index.md
+      - CloudWatch: monitoring/cloudwatch.md
+      - Grafana: monitoring/grafana.md
+  - Onboarding:
+      - New Member Guide: onboarding/index.md
+      - Tools Setup: onboarding/tools.md
+      - Access Requests: onboarding/access.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: /
+      name: Back to Main Docs

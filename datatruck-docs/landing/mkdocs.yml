@@ -1,0 +1,22 @@
+site_name: Datatruck Docs
+site_url: https://docs.datatruck.internal/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
