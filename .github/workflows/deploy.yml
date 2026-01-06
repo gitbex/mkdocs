@@ -38,6 +38,7 @@ jobs:
       - name: Build all documentation sites
         run: |
           chmod +x deploy.sh
+          ls -ltr
           ./deploy.sh
 
       - name: Upload artifact
