@@ -19,4 +19,4 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - Home: datatruck-docs/landing/index.md
