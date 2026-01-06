@@ -24,11 +24,5 @@ cd datatruck-docs/backend
 mkdocs build --clean -d ../site/backend
 cd ../..
 
-# Build Frontend docs
-echo "🎨 Building Frontend docs..."
-cd datatruck-docs/frontend
-mkdocs build --clean -d ../site/frontend
-cd ../..
-
 echo "✅ All sites built successfully!"
 echo "📦 Output directory: ./site/"
