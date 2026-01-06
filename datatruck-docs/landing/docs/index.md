@@ -7,11 +7,11 @@ Welcome to the central hub for all engineering documentation.
 ## Team Documentation
 
 <div class="md-grid">
-  <a class="md-card" href="/datatruck-docs/devops/">
+  <a class="md-card" href="/mkdocs/devops/">
     <h3>DevOps</h3>
     <p>Infrastructure, CI/CD, monitoring, and operational runbooks</p>
   </a>
-  <a class="md-card" href="/datatruck-docs/backend/">
+  <a class="md-card" href="/mkdocs/backend/">
     <h3>Backend</h3>
     <p>API guidelines, coding standards, and backend architecture</p>
   </a>
