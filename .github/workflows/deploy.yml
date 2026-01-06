@@ -42,6 +42,11 @@ jobs:
           ./deploy.sh
           ls -ltr
 
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+        # This ensures the session only starts if you manually run it or if a previous step failed
+        if: ${{ failure() }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
