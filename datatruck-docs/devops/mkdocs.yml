@@ -35,7 +35,7 @@ nav:
   - Home: index.md
   - Runbooks:
       - Overview: runbooks/index.md
-      # - Incident Response: runbooks/incident-response.md
+      - Incident Response: runbooks/incident-response.md
       # - Deployments: runbooks/deployments.md
       # - Troubleshooting: runbooks/troubleshooting.md
   - Infrastructure:
