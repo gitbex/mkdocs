@@ -25,7 +25,17 @@ echo "💻 Building Backend docs..."
 cd "$ROOT_DIR/datatruck-docs/backend"
 mkdocs build --clean -d "$ROOT_DIR/site/backend"
 
-# 6. Return to root
+# 6. Build AI docs (to /site/ai)
+echo "🧠 Building AI docs..."
+cd "$ROOT_DIR/datatruck-docs/ai"
+mkdocs build --clean -d "$ROOT_DIR/site/ai"
+
+# 7. Build Frontend docs (to /site/frontend)
+echo "🎨 Building Frontend docs..."
+cd "$ROOT_DIR/datatruck-docs/frontend"
+mkdocs build --clean -d "$ROOT_DIR/site/frontend"
+
+# 8. Return to root directory
 cd "$ROOT_DIR"
 
 echo "✅ All sites built successfully!"
