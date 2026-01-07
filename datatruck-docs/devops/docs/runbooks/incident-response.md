@@ -30,7 +30,7 @@ You'll only be able to set up MFA until it's enabled.
 4. Click **Add MFA**
 
 <figure markdown="span">
-  ![add MFA](../assets/1.png){ width="600" }
+  ![add MFA](../../assets/1.png){ width="600" }
 </figure>
 
 > **What you'll see:** The IAM Dashboard will show "Add MFA for" button.
