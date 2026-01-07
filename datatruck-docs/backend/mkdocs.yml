@@ -8,6 +8,7 @@ theme:
 
 nav:
   - Home: index.md
+  - "← Back to Main": https://gitbex.github.io/mkdocs/
   - API Guidelines: api-guidelines.md
   - Coding Standards: coding-standards.md
   - Runbooks:

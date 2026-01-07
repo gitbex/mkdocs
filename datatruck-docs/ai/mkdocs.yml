@@ -1,0 +1,39 @@
+site_name: AI Documentation
+site_url: https://gitbex.github.io/mkdocs/ai/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - attr_list
+
+plugins:
+  - search
+
+nav:
+  - "← Back to Main": https://gitbex.github.io/mkdocs/
+  - Home: index.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: https://gitbex.github.io/mkdocs/
+      name: Back to Main Docs
