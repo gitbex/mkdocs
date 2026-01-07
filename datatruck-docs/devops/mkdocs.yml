@@ -35,8 +35,8 @@ nav:
   - Home: index.md
   - Runbooks:
       - Overview: runbooks/index.md
-      - Incident Response: runbooks/incident-response.md
-      # - Deployments: runbooks/deployments.md
+      - Incident Response: runbooks/mfa-console.md
+      - Deployments: runbooks/mfa-cli.md
       # - Troubleshooting: runbooks/troubleshooting.md
   - Infrastructure:
       - Overview: infrastructure/index.md
