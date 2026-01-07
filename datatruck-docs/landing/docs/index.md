@@ -8,14 +8,6 @@ Welcome to the central hub for all engineering documentation.
 
 <div class="grid cards" markdown>
 
--   :material-server:{ .lg .middle } __DevOps__
-
-    ---
-
-    Infrastructure, CI/CD, monitoring, and operational runbooks
-
-    [:octicons-arrow-right-24: DevOps Docs](devops/)
-
 -   :material-code-braces:{ .lg .middle } __Backend__
 
     ---
@@ -31,6 +23,14 @@ Welcome to the central hub for all engineering documentation.
     UI guidelines, component library, and frontend best practices
 
     [:octicons-arrow-right-24: Frontend Docs](frontend/)
+
+-   :material-server:{ .lg .middle } __DevOps__
+
+    ---
+
+    Infrastructure, CI/CD, monitoring, and operational runbooks
+
+    [:octicons-arrow-right-24: DevOps Docs](devops/)
 
 -   :material-robot:{ .lg .middle } __AI/ML__
 
