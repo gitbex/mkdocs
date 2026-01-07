@@ -1,59 +1,60 @@
-# Datatruck Engineering Documentation
+# DevOps Documentation
 
-Welcome to the central hub for all engineering documentation.
+[:material-arrow-left: Back to Main Documentation](https://gitbex.github.io/mkdocs/){ .md-button .md-button--primary }
 
 ---
 
-## Team Documentation
+Welcome to the DevOps documentation for Datatruck. This site includes runbooks, infrastructure notes, CI/CD guides, monitoring and onboarding materials.
+
+## Quick Navigation
 
 <div class="grid cards" markdown>
 
--   :material-server:{ .lg .middle } __DevOps__
+-   :material-book-open-variant:{ .lg .middle } __Runbooks__
 
     ---
 
-    Infrastructure, CI/CD, monitoring, and operational runbooks
+    Operational procedures and troubleshooting guides
 
-    [:octicons-arrow-right-24: DevOps Docs](devops/)
+    [:octicons-arrow-right-24: View Runbooks](runbooks/)
 
--   :material-code-braces:{ .lg .middle } __Backend__
-
-    ---
-
-    API guidelines, coding standards, and backend architecture
-
-    [:octicons-arrow-right-24: Backend Docs](backend/)
-
--   :material-monitor:{ .lg .middle } __Frontend__
+-   :material-server:{ .lg .middle } __Infrastructure__
 
     ---
 
-    UI guidelines, component library, and frontend best practices
+    AWS and Kubernetes infrastructure documentation
 
-    [:octicons-arrow-right-24: Frontend Docs](frontend/)
+    [:octicons-arrow-right-24: View Infrastructure](infrastructure/)
 
--   :material-robot:{ .lg .middle } __AI/ML__
+-   :material-pipe:{ .lg .middle } __CI/CD__
 
     ---
 
-    ML pipeline, model lifecycle, and AI infrastructure
+    GitHub Actions and Jenkins pipeline guides
 
-    [:octicons-arrow-right-24: AI Docs](ai/)
+    [:octicons-arrow-right-24: View CI/CD](ci-cd/)
+
+-   :material-chart-line:{ .lg .middle } __Monitoring__
+
+    ---
+
+    CloudWatch and Grafana monitoring setup
+
+    [:octicons-arrow-right-24: View Monitoring](monitoring/)
 
 </div>
 
 ---
 
-## Shared Resources
+## Getting Started
 
-- [Glossary](shared/glossary/) - Common terms and acronyms
-- [Security Standards](shared/standards/security/) - Organization-wide security policies
-- [Documentation Standards](shared/standards/documentation/) - How to write docs
+New to the DevOps team? Start here:
+
+1. [Onboarding Guide](onboarding/) - Complete setup for new members
+2. [Tools Setup](onboarding/tools.md) - Install required tools
+3. [Access Requests](onboarding/access.md) - Get necessary permissions
 
 ---
 
-## Quick Links
-
-- [Incident Response](devops/runbooks/incident-response/) - Emergency procedures
-- [Deployment Guide](devops/runbooks/deployments/) - How to deploy
-- [API Guidelines](backend/api-guidelines/) - REST API best practices
+!!! tip "Emergency?"
+    For production incidents, go directly to [Incident Response](runbooks/incident-response/)
