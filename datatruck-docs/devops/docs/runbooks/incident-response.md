@@ -30,7 +30,7 @@ You'll only be able to set up MFA until it's enabled.
 4. Click **Add MFA**
 
 <figure markdown="span">
-  ![add MFA](../../assets/1.png){ width="600" }
+  ![add MFA](img/1.png){ width="600" }
 </figure>
 
 > **What you'll see:** The IAM Dashboard will show "Add MFA for" button.
@@ -94,7 +94,7 @@ The page will show your security credentials without any "Access Denied" errors.
 > **What you'll see:** Green success message at the top and "Console password" section will no longer show access denied errors (see Image 2).
 
 <figure markdown="span">
-  ![success](/assets/3.png){ width="600" }
+  ![success](docs/img/3.png){ width="600" }
 </figure>
 
 **That's it! MFA is now enabled.**
