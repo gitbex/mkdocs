@@ -1,60 +1,34 @@
-# DevOps Documentation
+# Datatruck Engineering Documentation
 
-[:material-arrow-left: Back to Main Documentation](https://gitbex.github.io/mkdocs/){ .md-button .md-button--primary }
+Welcome to the central hub for all engineering documentation.
 
 ---
 
-Welcome to the DevOps documentation for Datatruck. This site includes runbooks, infrastructure notes, CI/CD guides, monitoring and onboarding materials.
+## Team Documentation
 
-## Quick Navigation
-
-<div class="grid cards" markdown>
-
--   :material-book-open-variant:{ .lg .middle } __Runbooks__
-
-    ---
-
-    Operational procedures and troubleshooting guides
-
-    [:octicons-arrow-right-24: View Runbooks](runbooks/)
-
--   :material-server:{ .lg .middle } __Infrastructure__
-
-    ---
-
-    AWS and Kubernetes infrastructure documentation
-
-    [:octicons-arrow-right-24: View Infrastructure](infrastructure/)
-
--   :material-pipe:{ .lg .middle } __CI/CD__
-
-    ---
-
-    GitHub Actions and Jenkins pipeline guides
-
-    [:octicons-arrow-right-24: View CI/CD](ci-cd/)
-
--   :material-chart-line:{ .lg .middle } __Monitoring__
-
-    ---
-
-    CloudWatch and Grafana monitoring setup
-
-    [:octicons-arrow-right-24: View Monitoring](monitoring/)
-
+<div class="md-grid">
+  <a class="md-card" href="/mkdocs/devops/">
+    <h3>DevOps</h3>
+    <p>Infrastructure, CI/CD, monitoring, and operational runbooks</p>
+  </a>
+  <a class="md-card" href="/mkdocs/backend/">
+    <h3>Backend</h3>
+    <p>API guidelines, coding standards, and backend architecture</p>
+  </a>
 </div>
 
 ---
 
-## Getting Started
+## Shared Resources
 
-New to the DevOps team? Start here:
-
-1. [Onboarding Guide](onboarding/) - Complete setup for new members
-2. [Tools Setup](onboarding/tools.md) - Install required tools
-3. [Access Requests](onboarding/access.md) - Get necessary permissions
+- [Glossary](/shared/glossary/) - Common terms and acronyms
+- [Security Standards](/shared/standards/security/) - Organization-wide security policies
+- [Documentation Standards](/shared/standards/documentation/) - How to write docs
 
 ---
 
-!!! tip "Emergency?"
-    For production incidents, go directly to [Incident Response](runbooks/incident-response/)
+## Quick Links
+
+- [Incident Response](devops/runbooks/incident-response/) - Emergency procedures
+- [Deployment Guide](devops/runbooks/deployments/) - How to deploy
+- [API Guidelines](backend/api-guidelines/) - REST API best practices

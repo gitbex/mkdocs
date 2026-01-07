@@ -60,8 +60,3 @@ extra:
     - icon: fontawesome/solid/house
       link: https://gitbex.github.io/mkdocs/
       name: Back to Main Docs
-
-# Add copyright with link
-copyright: |
-  <a href="https://gitbex.github.io/mkdocs/">← Back to Main Docs</a> | 
-  Copyright &copy; 2024 Datatruck Engineering
