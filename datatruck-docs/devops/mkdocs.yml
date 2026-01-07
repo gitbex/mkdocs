@@ -35,9 +35,9 @@ nav:
   - Home: index.md
   - Runbooks:
       - Overview: runbooks/index.md
-      - Incident Response: runbooks/incident-response.md
-      - Deployments: runbooks/deployments.md
-      - Troubleshooting: runbooks/troubleshooting.md
+      # - Incident Response: runbooks/incident-response.md
+      # - Deployments: runbooks/deployments.md
+      # - Troubleshooting: runbooks/troubleshooting.md
   - Infrastructure:
       - Overview: infrastructure/index.md
       - AWS: infrastructure/aws.md
