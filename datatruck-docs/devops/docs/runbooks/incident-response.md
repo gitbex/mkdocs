@@ -94,7 +94,7 @@ The page will show your security credentials without any "Access Denied" errors.
 > **What you'll see:** Green success message at the top and "Console password" section will no longer show access denied errors (see Image 2).
 
 <figure markdown="span">
-  ![success](../assets/3.png){ width="600" }
+  ![success](/assets/3.png){ width="600" }
 </figure>
 
 **That's it! MFA is now enabled.**
