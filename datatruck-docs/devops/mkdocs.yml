@@ -26,8 +26,8 @@ markdown_extensions:
   - attr_list
 
 # Add this at the bottom of mkdocs.yml
-plugins:
-  - search
+# plugins:
+#   - search
 
 
 nav:
