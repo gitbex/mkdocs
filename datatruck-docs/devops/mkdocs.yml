@@ -33,6 +33,7 @@ nav:
       - MFA create from console: runbooks/mfa-console.md
       - MFA CLI usage: runbooks/mfa-cli.md
       - CloudWatch create: runbooks/cw.md
+      - ECS troubleshooting: runbooks/ecs-logs.md
   - Infrastructure:
       - Overview: infrastructure/index.md
       - AWS: infrastructure/aws.md
