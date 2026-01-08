@@ -8,8 +8,8 @@ This is a test overview page for Runbooks.
 
 ## Example Runbook Links
 
-- CloudWatch Alarm create — see `cw.md` (placeholder)
-- Deployments — see `deployments.md` (placeholder)
+- CloudWatch Alarm create — see [CloudWatch create](cw.md)
+- Deployments — see `deployments.md`(placeholder)
 
 Add detailed runbooks here.
 
