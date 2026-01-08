@@ -34,6 +34,7 @@ nav:
       - MFA CLI usage: runbooks/mfa-cli.md
       - CloudWatch create: runbooks/cw.md
       - ECS troubleshooting: runbooks/ecs-logs.md
+      - ECS scaling: runbooks/ecs-scaling.md
   - Infrastructure:
       - Overview: infrastructure/index.md
       - AWS: infrastructure/aws.md
