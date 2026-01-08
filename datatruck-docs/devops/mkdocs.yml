@@ -20,6 +20,14 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+plugins:
+  - search
+  - drawio:
+      format: svg
+      sources: '*.drawio'
+
+
+
 markdown_extensions:
   - admonition
   - pymdownx.superfences
@@ -37,8 +45,8 @@ nav:
       - ECS scaling: runbooks/ecs-scaling.md
   - Infrastructure:
       - Overview: infrastructure/index.md
-      - AWS: infrastructure/aws.md
-      - Kubernetes: infrastructure/kubernetes.md
+      # - AWS: infrastructure/aws.md
+      # - Kubernetes: infrastructure/kubernetes.md
   - CI/CD:
       - Overview: ci-cd/index.md
       - GitHub Actions: ci-cd/github-actions.md
