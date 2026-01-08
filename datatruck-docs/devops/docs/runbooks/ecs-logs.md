@@ -2,12 +2,12 @@
 
 # AWS ECS Troubleshooting Guide
 
-This guide provides a step-by-step walkthrough for investigating issues with the **tms-django-blue-service** on AWS ECS. It covers viewing application logs, checking service health, and analyzing performance metrics via Container Insights.
+This guide provides a step-by-step walkthrough for investigating issues with the **tms-django-green-service** on AWS ECS. It covers viewing application logs, checking service health, and analyzing performance metrics via Container Insights.
 
 **Pre-requisites:**
 
-* **Cluster Name:** `datatruck-blue-ecs-tms-1` 
-* **Service Name:** `tms-django-blue-service`
+* **Cluster Name:** `datatruck-green-ecs-tms-1` 
+* **Service Name:** `tms-django-green-service`
 
 ---
 
@@ -17,8 +17,8 @@ Application logs are the primary source for debugging 500 errors, application cr
 
 1. Log in to the [AWS Management Console](console.aws.amazon.com).
 2. Navigate to **Elastic Container Service (ECS)**.
-3. Select the cluster **datatruck-blue-ecs-tms-1**.
-4. Click on the service **tms-django-blue-service**.
+3. Select the cluster **datatruck-green-ecs-tms-1**.
+4. Click on the service **tms-django-green-service**.
 5. Click the **Logs** tab.
 6. **Filter/Search:**
 * Use the search bar to filter for keywords like `ERROR`, `Exception`, or `Traceback`.
@@ -37,7 +37,7 @@ Application logs are the primary source for debugging 500 errors, application cr
 
 If the service isn't starting or is constantly restarting, check the deployment events.
 
-1. Navigate to **ECS** > **Cluster: datatruck-blue-ecs-tms-1** > **Service: tms-django-blue-service**.
+1. Navigate to **ECS** > **Cluster: datatruck-green-ecs-tms-1** > **Service: tms-django-green-service**.
 2. Click the **Events** tab.
 * **Look for:** "service ... has reached a steady state" (Good).
 * **Look for:** "task ... failed container health checks" (Application health check failure).
@@ -59,8 +59,8 @@ Use Container Insights to correlate crashes with resource spikes (CPU/Memory).
 1. Navigate to **Health and metrics** tab > **Container Insights**.
 2. In the dropdown menus at the top:
 * **Performance monitoring:** Select `ECS Services`.
-* **Cluster:** Select `datatruck-blue-ecs-tms-1`.
-* **Service:** Select `tms-django-blue-service`.
+* **Cluster:** Select `datatruck-green-ecs-tms-1`.
+* **Service:** Select `tms-django-green-service`.
 
 
 3. Analyze the graphs:
@@ -98,8 +98,8 @@ To quickly fetch the last 20 log events for a specific task in this service:
 ```bash
 # 1. List tasks to get a Task ID
 aws ecs list-tasks \
-    --cluster datatruck-blue-ecs-tms-1 \
-    --service-name tms-django-blue-service
+    --cluster datatruck-green-ecs-tms-1 \
+    --service-name tms-django-green-service
 
 # 2. Get logs (Replace TASK_ID and CONTAINER_NAME)
 aws logs get-log-events \
