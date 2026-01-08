@@ -44,7 +44,7 @@ nav:
       - ECS troubleshooting: runbooks/ecs-logs.md
       - ECS scaling: runbooks/ecs-scaling.md
   - Infrastructure:
-      - Overview: infra/diagram.md
+      - Overview: infrastructure/diagram.md
       # - AWS: infrastructure/aws.md
       # - Kubernetes: infrastructure/kubernetes.md
   - CI/CD:
