@@ -25,19 +25,14 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
 
-# Add this at the bottom of mkdocs.yml
-# plugins:
-#   - search
-
-
 nav:
   - "← Back to Main": https://gitbex.github.io/mkdocs/
   - Home: index.md
   - Runbooks:
       - Overview: runbooks/index.md
-      - Incident Response: runbooks/mfa-console.md
-      - Deployments: runbooks/mfa-cli.md
-      # - Troubleshooting: runbooks/troubleshooting.md
+      - MFA create from console: runbooks/mfa-console.md
+      - MFA CLI usage: runbooks/mfa-cli.md
+      - CloudWatch create: runbooks/cw.md
   - Infrastructure:
       - Overview: infrastructure/index.md
       - AWS: infrastructure/aws.md
