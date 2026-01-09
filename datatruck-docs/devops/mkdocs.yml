@@ -8,6 +8,8 @@ theme:
     - navigation.sections
     - navigation.top
     - content.code.copy
+  icon:
+    repo: fontawesome/brands/git-alt 
   palette:
     - scheme: default
       primary: indigo
