@@ -45,6 +45,7 @@ nav:
       - CloudWatch create: runbooks/cw.md
       - ECS troubleshooting: runbooks/ecs-logs.md
       - ECS scaling: runbooks/ecs-scaling.md
+      - Deployment strategies: runbooks/deploy.md
   - Infrastructure:
       - Architecture overview: infrastructure/diagram.md
       # - AWS: infrastructure/aws.md
